@@ -1,2 +1,3 @@
-:HL["/AuraAI/_next/static/chunks/0f6b3415l_158.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"discover","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"zyFWvnjf4_tQfSnY0y7QB"}
+:HL["/AuraAI/_next/static/chunks/0hi28q2wwp73c.css","style"]
+:HL["/AuraAI/aura-brand.jpg","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"discover","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"KZmJInT5XYBIGr9fdL5Sp"}
