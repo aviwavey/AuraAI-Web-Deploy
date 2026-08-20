@@ -1,3 +1,3 @@
-:HL["/AuraAI/_next/static/chunks/15m9rw~cyljdx.css","style"]
+:HL["/AuraAI/_next/static/chunks/0v5r.yd.b-f0o.css","style"]
 :HL["/AuraAI/aura-brand.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"rHmgsAbH2Q3fJCOJ24ZXS"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"egrPI5W0WuYgfWgq9BfIh"}
