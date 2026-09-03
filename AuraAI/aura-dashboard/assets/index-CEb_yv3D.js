@@ -112,8 +112,10 @@ import{S as Ge,a as Ze,P as Xe,W as Ke,C as pt,V as P,M as g,b as y,H as We,D as
     <header>
       <a class="brand" href="/AuraAI/home/" target="_top" aria-label="Aura AI public homepage"><img class="brand-mark" src="${jt}" alt="Aura AI"><div><b>AURA</b><small>VISUAL INTERFACE · V1</small></div></a>
       <div class="header-actions">
+        <div class="account-standard-actions">
         <button class="header-icon account-standard-action" type="button" aria-label="Messages"><svg class="header-icon__message" viewBox="0 0 37 33" aria-hidden="true"><path d="M1.833 0h33c.487 0 .953.193 1.297.537.343.344.537.81.537 1.296v29.334c0 .486-.194.952-.537 1.296a1.833 1.833 0 0 1-1.297.537h-33a1.833 1.833 0 0 1-1.296-.537A1.833 1.833 0 0 1 0 31.167V1.833C0 1.347.193.88.537.537A1.833 1.833 0 0 1 1.833 0ZM33 7.77 18.465 20.786 3.667 7.73v21.604H33V7.77ZM4.604 3.667l13.841 12.213L32.087 3.667H4.604Z"/></svg><i>2</i></button>
         <button class="header-icon account-standard-action" type="button" aria-label="Notifications"><svg class="header-icon__notification" viewBox="0 0 30 38" aria-hidden="true"><path d="M25.375 14a10.5 10.5 0 0 0-21 0v14h21V14Zm3.5 15.167.7.933a.875.875 0 0 1-.7 1.4h-28a.875.875 0 0 1-.7-1.4l.7-.933V14a14 14 0 1 1 28 0v15.167ZM10.5 33.25h8.75a4.375 4.375 0 0 1-8.75 0Z"/></svg><i>3</i></button>
+        </div>
         <button id="dashboard-log-off" class="dashboard-log-off" type="button" hidden>Log off</button>
         <button id="rooms-button" class="rooms-button" type="button" hidden aria-label="Open Aura Accord" aria-pressed="false"><span>◎</span> Accord</button>
         <div id="dashboard-account" class="dashboard-account" role="button" tabindex="0" aria-expanded="false" aria-label="Open account actions" aria-live="polite" hidden></div>
