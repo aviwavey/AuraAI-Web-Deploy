@@ -1,9 +1,9 @@
 {
   "sourceRepository": "AVI-Wavey/AuraPublicInterface",
-  "sourceCommit": "c4e3c301f3144ff8811dab2e4df413539e1c11fa",
+  "sourceCommit": "68e6773ec142c3f2bf52adf2f98abb65d10e6553",
   "sourceRef": "main",
-  "workflowRun": "https://github.com/AVI-Wavey/AuraPublicInterface/actions/runs/34414061676",
+  "workflowRun": "https://github.com/AVI-Wavey/AuraPublicInterface/actions/runs/34414705317",
   "artifactDirectory": "AuraAI",
-  "publishedAt": "2026-09-09T22:49:47Z",
+  "publishedAt": "2026-09-09T22:58:03Z",
   "contents": "Compiled Aura public website output only"
 }
