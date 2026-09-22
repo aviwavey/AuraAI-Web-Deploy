@@ -1,6 +1,11 @@
 {
   "redirects": [
     {
+      "source": "/AuraAI/AuraAI/:path*",
+      "destination": "/AuraAI/:path*",
+      "permanent": false
+    },
+    {
       "source": "/",
       "destination": "/AuraAI/home",
       "permanent": false
