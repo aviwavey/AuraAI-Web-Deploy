@@ -1,0 +1,10 @@
+{
+  "module": "AuraApply",
+  "digests": {
+    "index.html": "8e92528d9f71b2b01c13653f8fa65a54399c4e36d1ccad3ab3d0870a17197446",
+    "app.js": "3feeb59973ad7f1fec71b15385d8f6c7dda7287f97685356407f65e68a151703",
+    "preferences.js": "1be618c668a40b04a75ec9743e39e99b212e6f1fe1b68d20bb615a737215f516",
+    "app.css": "57050dc4d8494897436bc49421df17340d14a2ee67520d847971d866655ee97d",
+    "boot.js": "f5583731e3b7fd51da70518754e9ddd55c676197f22b5032dab73356fac5b66c"
+  }
+}
