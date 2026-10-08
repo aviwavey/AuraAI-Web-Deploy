@@ -1,7 +1,7 @@
 {
   "sourceRepository": "AVI-Wavey/Visual",
-  "sourceCommit": "94ca9a67050b6ed42707561196ce05007105df3c",
+  "sourceCommit": "989ea8489c65276c9e220c2055057a86ad102b50",
   "assetBase": "/AuraAI/aura-dashboard/",
-  "approvedPreviewVersion": 108,
-  "previewSourceCommit": "e1efba8c735b2d027254247c2cf12167ee126474"
+  "godsEyeUpstreamCommit": "95fa816232456a6831172befa2f1b34b9ee73794",
+  "godsEyeEdition": "Full console with keyless hosted providers; optional keyed features unconfigured"
 }

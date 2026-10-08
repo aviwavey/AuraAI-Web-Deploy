@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/bilawalsidhu/gods-eye-view",
+  "commit": "95fa816232456a6831172befa2f1b34b9ee73794",
+  "sourceDirectory": "vendor/gods-eye-view",
+  "license": "MIT source code; separately licensed datasets and models",
+  "publicExclusions": ["TeleGeography non-commercial cable data", "Bhote Koshi non-commercial imagery and derived coordinates"],
+  "providerPolicy": "Keyless services only. No paid credentials, local receiver access, or credential-writing endpoints."
+}

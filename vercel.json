@@ -56,6 +56,34 @@
           "value": "public, max-age=31536000, immutable"
         }
       ]
+    },
+    {
+      "source": "/AuraAI/aura-dashboard/gods-eye-console/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "frame-ancestors 'self' https://aura-ai-current-preview.miketondatraq.chatgpt.site; object-src 'none'; base-uri 'self'"
+        }
+      ]
     }
-  ]
+  ],
+  "rewrites": [
+    {
+      "source": "/AuraAI/aura-dashboard/gods-eye-console/api/:path*",
+      "destination": "/api/gods-eye?path=:path*"
+    }
+  ],
+  "functions": {
+    "api/gods-eye.mjs": {
+      "maxDuration": 30
+    }
+  }
 }

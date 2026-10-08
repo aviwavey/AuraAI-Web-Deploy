@@ -1,5 +1,5 @@
-:HL["/AuraAI/_next/static/chunks/04a_m88aamm8-.css","style"]
+:HL["/AuraAI/_next/static/chunks/0oa6voelt0m2p.css","style"]
 :HL["/AuraAI/aura-dashboard/visuals/aura-orb-v001.glb","fetch",{"crossOrigin":"anonymous"}]
 :HL["/AuraAI/aura-dashboard/visuals/prince-human-v066.glb","fetch",{"crossOrigin":"anonymous"}]
 :HL["/AuraAI/aura-dashboard/visuals/princess-human-v066.glb","fetch",{"crossOrigin":"anonymous"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"dashboard","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"OEDtQmhX7_wGdd5PFO35z"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"dashboard","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"VK1huwQVX1NcXJVokWDRQ"}
