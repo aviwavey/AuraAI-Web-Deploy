@@ -1657,8 +1657,11 @@ ${e.stack}`;try{return JSON.stringify(e,Object.getOwnPropertyNames(e??{}))}catch
   [data-aura-inline] .aura-provider-notice{background:#f4faf8ef;color:#506f68;border-color:#abc9bf88;font-size:10px}
   [data-aura-inline] .aura-provider-notice a{color:#357b71}
   [data-aura-voice] #loading-screen,[data-aura-voice] #data-panel,[data-aura-voice] .aura-provider-notice{display:none!important}
-  [data-aura-voice] #cesium-credits{font-size:9px;max-width:min(460px,calc(100% - 28px));bottom:6px!important;left:auto!important;right:12px!important;text-align:right}
-  [data-aura-voice] #cesium-credits .cesium-widget-credits{position:static;white-space:normal;text-align:right}
+  [data-aura-voice] #cesium-credits{font:10px/1.5 system-ui!important;max-width:calc(100% - 28px);bottom:12px!important;left:18px!important;right:auto!important;width:180px;height:22px;box-sizing:border-box;display:flex;align-items:center;text-align:left;color:#596b66!important;background:#f9fcfbe8;border:1px solid #d7cbdc;border-radius:6px;padding:0 6px;text-shadow:none!important}
+  [data-aura-voice] #cesium-credits .cesium-widget-credits{position:static;white-space:normal;text-align:left}
+  [data-aura-voice] #cesium-credits *{text-shadow:none!important;box-shadow:none!important;font:inherit!important;color:inherit!important}
+  [data-aura-voice] #cesium-credits a{text-decoration:none!important}
+  [data-aura-voice] #cesium-credits a:hover{text-decoration:underline!important}
   [data-aura-voice] #command-dock,[data-aura-voice] #pp-toggles,[data-aura-voice] #street-level-panel{display:none!important}
   [data-aura-world-windows] :is(#cctv-panel,#recent-imagery-panel,#weather-panel,#global-context-panel,#radio-panel,#scene-panel):not(.world-window *){display:none!important}
   .world-windows{position:fixed;inset:0;pointer-events:none;z-index:10002;font:12px system-ui;color:#526363}
