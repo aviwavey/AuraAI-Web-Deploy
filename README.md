@@ -3,8 +3,8 @@
 This repository contains the compiled public release of the AuraAI website. It is maintained automatically by **AutoPush** from the private organisation source.
 
 - Public route: /AuraAI
-- Source commit: 1101d35ceb2385ad24a610ded0c2a86c825a2a75
-- AutoPush run: https://github.com/AVI-Wavey/AuraPublicInterface/actions/runs/39994294822
+- Source commit: fb0b0b6fd28980f835aa4cc041498bcd2054bff0
+- AutoPush run: https://github.com/AVI-Wavey/AuraPublicInterface/actions/runs/39994335367
 - Published content: compiled static output and the read-only God’s Eye provider service
 
 Do not develop directly in this repository. The next successful AutoPush run replaces the published files.
