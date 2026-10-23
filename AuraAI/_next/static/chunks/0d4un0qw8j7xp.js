@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,69463,t=>{"use strict";let s="/AuraAI";t.s(["AURA_BASE_PATH",0,s,"auraPath",0,t=>`${s}${t.startsWith("/")?t:`/${t}`}`])}]);
