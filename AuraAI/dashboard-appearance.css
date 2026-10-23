@@ -10,3 +10,4 @@ html[data-aura-resolved=dark] :is(.header-icon,.lock-glyph){color:#e8dfed}
 html[data-aura-resolved=dark] .shell::before{opacity:.08}
 html[data-aura-resolved=dark] :is(.shell>footer,.chat-rail,.lucid-sidebar,.experience-heading){background-color:#29232f;color:#e8dfed;border-color:#514558}
 html[data-aura-resolved=dark] :is(.chat-rail,.lucid-sidebar,.experience-heading,.shell>footer) :is(h1,h2,h3,p,span,b,strong,label,small,button){color:#e8dfed}
+html[data-aura-resolved=dark] .mode-switcher button:not(.active){background:#3b3242;color:#e8dfed;border-color:#5a4d62}
