@@ -1,0 +1,9 @@
+/* Theme the host controls, never invert avatars, artwork, video or map tiles. */
+html[data-aura-resolved=dark],html[data-aura-resolved=dark] body{background:#211c26;color:#f5f0f6}
+html[data-aura-resolved=dark] .shell{color:#f5f0f6;background:radial-gradient(ellipse at 15% 10%,#25414766,transparent 65%),radial-gradient(ellipse at 85% 85%,#53364866,transparent 60%),#211c26}
+html[data-aura-resolved=dark] :is(.header,.shell>header,.global-drawer,.mode-switcher,.dream-panel,.dream-sidebar,.aura-settings,.sidebar,.conversation-sidebar,.text-interface,.text-panel,.voice-controls,.drawer-search,.window-panel,.window-titlebar,.window-content,dialog){background-color:#29232f;color:#f5f0f6;border-color:#514558;background-image:none}
+html[data-aura-resolved=dark] :is(.global-drawer,.dream-sidebar,.aura-home,.aura-settings,.mode-switcher,.shell>header,.sidebar,.conversation-sidebar,.text-interface,.text-panel,.voice-controls,dialog) :is(h1,h2,h3,h4,p,span,b,strong,label,small,button){color:#e8dfed}
+html[data-aura-resolved=dark] :is(.drawer-search,input,textarea,select,.global-menu-button,.global-drawer__heading button,.aura-home__continuity button,.aura-home__pins button,.dashboard-log-off){background:#29232f;color:#f5f0f6;border-color:#66586f}
+html[data-aura-resolved=dark] :is(input,textarea)::placeholder{color:#b4a9bd}
+html[data-aura-resolved=dark] :is(.global-drawer nav button.active,.mode-switcher button.active,.dream-sidebar button.active){background:#244548;color:#9de6ea;border-color:#67bdc4}
+html[data-aura-resolved=dark] :is(.header-icon,.lock-glyph){color:#e8dfed}
