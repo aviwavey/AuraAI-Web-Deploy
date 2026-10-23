@@ -7,3 +7,6 @@ html[data-aura-resolved=dark] :is(.drawer-search,input,textarea,select,.global-m
 html[data-aura-resolved=dark] :is(input,textarea)::placeholder{color:#b4a9bd}
 html[data-aura-resolved=dark] :is(.global-drawer nav button.active,.mode-switcher button.active,.dream-sidebar button.active){background:#244548;color:#9de6ea;border-color:#67bdc4}
 html[data-aura-resolved=dark] :is(.header-icon,.lock-glyph){color:#e8dfed}
+html[data-aura-resolved=dark] .shell::before{opacity:.08}
+html[data-aura-resolved=dark] :is(.shell>footer,.chat-rail,.lucid-sidebar,.experience-heading){background-color:#29232f;color:#e8dfed;border-color:#514558}
+html[data-aura-resolved=dark] :is(.chat-rail,.lucid-sidebar,.experience-heading,.shell>footer) :is(h1,h2,h3,p,span,b,strong,label,small,button){color:#e8dfed}
