@@ -1,9 +1,9 @@
 {
   "sourceRepository": "AVI-Wavey/AuraPublicInterface",
-  "sourceCommit": "262b6c0c735110aba9472106aa1ac9b6e3b5db5e",
+  "sourceCommit": "e35f524814b78a82b888f018531ce5196bf2c740",
   "sourceRef": "main",
-  "workflowRun": "https://github.com/AVI-Wavey/AuraPublicInterface/actions/runs/41084773811",
+  "workflowRun": "https://github.com/AVI-Wavey/AuraPublicInterface/actions/runs/41086283171",
   "artifactDirectory": "AuraAI",
-  "publishedAt": "2026-10-30T15:53:45Z",
+  "publishedAt": "2026-10-30T16:03:30Z",
   "contents": "Compiled Aura website and read-only God’s Eye provider service"
 }
