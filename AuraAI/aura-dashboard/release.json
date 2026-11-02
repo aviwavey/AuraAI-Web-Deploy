@@ -1,1 +1,11 @@
-{"sourceCommit": "75f0d6214078ae091b89da85d8f77d0e249da7a1", "sourceRepository": "AVI-Wavey/Visual", "assetBase": "/AuraAI/aura-dashboard/"}
+{
+  "sourceCommit": "75f0d6214078ae091b89da85d8f77d0e249da7a1",
+  "sourceRepository": "AVI-Wavey/Visual",
+  "assetBase": "/AuraAI/aura-dashboard/",
+  "appearanceOverlay": {
+    "version": "2026-11-02.1",
+    "sourceRepository": "AVI-Wavey/AuraPublicInterface",
+    "entry": "appearance-refinements-v1.js",
+    "stylesheet": "appearance-refinements-v1.css"
+  }
+}
