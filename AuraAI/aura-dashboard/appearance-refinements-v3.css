@@ -1,0 +1,16 @@
+/* Authored overlay for the pinned Visual export: shared public/dashboard art. */
+html[data-aura-resolved] .shell .dream-panel .dream-core{
+ width:clamp(300px,32vw,430px);max-width:92%;height:auto;aspect-ratio:1;
+ border:0;border-radius:0;background:url("./dream-wrap-day-v3.svg") center/contain no-repeat;
+ box-shadow:none;z-index:2;pointer-events:none;
+}
+html[data-aura-resolved=dark] .shell .dream-panel .dream-core{
+ background-image:url("./dream-wrap-night-v3.svg");box-shadow:none;border:0;
+}
+html[data-aura-resolved] .shell .dream-panel .dream-core span{
+ position:absolute;left:53%;top:48%;transform:translate(-50%,-50%);
+ color:#664714;font-size:10px;letter-spacing:.18em;text-shadow:none;
+}
+html[data-aura-resolved=dark] .shell .dream-panel .dream-core span{color:#f0e1b9}
+html[data-aura-resolved] .shell .rooms-panel .rooms-unity__content p{line-height:1.6;max-width:270px}
+@media(max-width:760px){html[data-aura-resolved] .shell .dream-panel .dream-core{width:min(380px,92%)}}
