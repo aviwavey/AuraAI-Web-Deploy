@@ -22,6 +22,7 @@ function studio(night){
  const g=new T.PMREMGenerator(renderer),env=g.fromScene(s,.025);g.dispose();cards.forEach(p=>{p.geometry.dispose();p.material.dispose();});return env;
 }
 function applyTheme(){
+ document.documentElement.style.colorScheme=dark?"dark":"light";
  if(!asset)return;
  asset.traverse(o=>{
   if(!(o instanceof T.Mesh))return;
@@ -65,7 +66,7 @@ try{
    m.onBeforeCompile=shader=>{shader.vertexShader='varying vec3 coreNormal; varying vec3 coreView;\n'+shader.vertexShader;shader.vertexShader=shader.vertexShader.replace('#include <begin_vertex>','#include <begin_vertex>\ncoreNormal=normalize(normalMatrix*normal);coreView=-(modelViewMatrix*vec4(position,1.)).xyz;');shader.fragmentShader='varying vec3 coreNormal; varying vec3 coreView;\n'+shader.fragmentShader;shader.fragmentShader=shader.fragmentShader.replace('#include <opaque_fragment>','diffuseColor.a*=smoothstep(.02,.92,max(0.,dot(normalize(coreNormal),normalize(coreView))));if(diffuseColor.a<.001)discard;\n#include <opaque_fragment>');};m.customProgramCacheKey=()=> 'aura-contained-core-v1';
   }
  });
- const bounds=new T.Box3().setFromObject(asset),centre=bounds.getCenter(new T.Vector3()),size=bounds.getSize(new T.Vector3());asset.position.sub(centre);root.add(asset);root.scale.setScalar(2.05/Math.max(size.x,size.y,size.z));resize();applyTheme();notify('aura-orb-ready');
+ const bounds=new T.Box3().setFromObject(asset),centre=bounds.getCenter(new T.Vector3()),size=bounds.getSize(new T.Vector3());asset.position.sub(centre);root.add(asset);root.scale.setScalar(2.25/Math.max(size.x,size.y,size.z));resize();applyTheme();notify('aura-orb-ready');
  const reduce=matchMedia('(prefers-reduced-motion: reduce)');let last=0;function tick(ms){requestAnimationFrame(tick);if(!visible||document.hidden||reduce.matches||ms-last<33)return;last=ms;render(ms/1000);}requestAnimationFrame(tick);
  addEventListener('resize',resize);addEventListener('message',e=>{if(e.origin!==location.origin)return;if(e.data?.type==='aura-orb-theme'){dark=e.data.dark===true;applyTheme();}if(e.data?.type==='aura-orb-visible')visible=e.data.visible===true;});reduce.addEventListener('change',()=>render(0));
 }catch(error){console.error('Aura orb could not render',error);notify('aura-orb-error');}
