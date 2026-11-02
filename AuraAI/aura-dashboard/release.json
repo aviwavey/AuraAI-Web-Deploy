@@ -3,9 +3,9 @@
   "sourceRepository": "AVI-Wavey/Visual",
   "assetBase": "/AuraAI/aura-dashboard/",
   "appearanceOverlay": {
-    "version": "2026-11-02.3",
+    "version": "2026-11-02.4",
     "sourceRepository": "AVI-Wavey/AuraPublicInterface",
-    "entry": "appearance-refinements-v1.js",
-    "stylesheet": "appearance-refinements-v3.css"
+    "entry": "appearance-refinements-v2.js",
+    "stylesheet": "appearance-refinements-v4.css"
   }
 }
