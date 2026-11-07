@@ -1,4 +1,4 @@
-:HL["/AuraAI/_next/static/chunks/0-35uyck2zk80.css","style"]
+:HL["/AuraAI/_next/static/chunks/0wvyc8ngy_uss.css","style"]
 :HL["/AuraAI/aura-dashboard/accord-unity-clover-light-v3.svg","image"]
 :HL["/AuraAI/aura-dashboard/accord-unity-dark.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"m6lkqvJc1jfId0Barvk5Q"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"_jG2XDZBSNfwFHamEn-Fg"}
