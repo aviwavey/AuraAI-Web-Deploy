@@ -3,11 +3,11 @@
   "sourceRepository": "AVI-Wavey/Visual",
   "assetBase": "/AuraAI/aura-dashboard/",
   "appearanceOverlay": {
-    "version": "2026-11-15.3",
+    "version": "2026-11-15.4",
     "sourceRepository": "AVI-Wavey/AuraPublicInterface",
-    "entry": "appearance-refinements-v7.js",
-    "stylesheet": "appearance-refinements-v9.css",
-    "materials": "companion-orb-materials-v3.js",
+    "entry": "appearance-refinements-v8.js",
+    "stylesheet": "appearance-refinements-v10.css",
+    "materials": "companion-orb-materials-v4.js",
     "paletteSource": "app/ringGold.json"
   }
 }
